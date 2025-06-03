@@ -1,4 +1,5 @@
-# tree-root-prediction
+# Tree Root Prediction Project - Setup Guide
+===============================================
 
 This repository contains the course project for the **Machine Learning** course at **Universitat Politècnica de Catalunya (UPC)**, completed as part of the **Big Data Management and Analytics (BDMA)** Erasmus Mundus Master's program.
 
@@ -8,27 +9,32 @@ The objective of this project is to apply machine learning techniques to a real-
 
 The task is framed as a **binary classification** problem at the **node level**—for each node in the tree, predict whether it is the root or not. The central hypothesis is that **graph centrality measures** can help identify the root node based on its structural importance.
 
+## Instructions to set up and run the project.
 
-Tree Root Prediction Project - Setup Guide
-=========================================
-
-This guide provides step-by-step instructions to set up and run the tree root prediction project.
-
-1. Clone and Run
----------------
+1. Clone 
+------------------------------
 ```bash
 # Clone the repository
 git clone https://github.com/saracherif123/tree-root-prediction.git
 cd tree-root-prediction
-
-# Install requirements
-pip install -r requirements.txt
-
-# Run the model
-python3 notebooks/model.ipynb
 ```
 
-2. Run the model directly from the command line, use:
+2. Install requirements
+------------------------------
+```bash
+pip install -r requirements.txt
+```
+
+3. Create a virtual environment
+------------------------------
+```bash
+python3 -m venv .venv
+source .venv/bin/activate        # macOS/Linux
+.venv\Scripts\activate           # Windows (PowerShell or cmd)
+```
+
+2. run the model from the command line:
+------------------------------
 ```bash
 python3 notebooks/model.ipynb
 ```
