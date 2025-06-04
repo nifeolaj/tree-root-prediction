@@ -1,4 +1,4 @@
-# Tree Root Prediction Project - Setup Guide
+# Tree Root Prediction Project 
 ===============================================
 
 This repository contains the course project for the **Machine Learning** course at **Universitat Politècnica de Catalunya (UPC)**, completed as part of the **Big Data Management and Analytics (BDMA)** Erasmus Mundus Master's program.
