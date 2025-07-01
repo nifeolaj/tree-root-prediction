@@ -1,4 +1,4 @@
-# Tree Root Prediction Project - Setup Guide
+# Tree Root Prediction Project 
 ===============================================
 
 This repository contains the course project for the **Machine Learning** course at **Universitat Politècnica de Catalunya (UPC)**, completed as part of the **Big Data Management and Analytics (BDMA)** Erasmus Mundus Master's program.
@@ -19,13 +19,7 @@ git clone https://github.com/saracherif123/tree-root-prediction.git
 cd tree-root-prediction
 ```
 
-2. Install requirements
-------------------------------
-```bash
-pip install -r requirements.txt
-```
-
-3. Create a virtual environment
+2. Create a virtual environment
 ------------------------------
 ```bash
 python3 -m venv .venv
@@ -33,7 +27,13 @@ source .venv/bin/activate        # macOS/Linux
 .venv\Scripts\activate           # Windows (PowerShell or cmd)
 ```
 
-2. run the model from the command line:
+3. Install requirements
+------------------------------
+```bash
+pip install -r requirements.txt
+```
+
+4. run the model from the command line:
 ------------------------------
 ```bash
 python3 notebooks/model.ipynb
